@@ -44,6 +44,15 @@
      background-color: rgb(172, 172, 168);
  }
 
+ nav.right>ul>li {
+     display: inline;
+     position: relative;
+     left: 1000px;
+
+
+
+ }
+
  nav.center-center {
      display: block;
      margin: 0px auto;
@@ -51,22 +60,12 @@
      background-color: #ff7f50;
  }
 
- nav.right-center>p>figure>img {
-     display: inline;
- }
 
  nav.center-left>ul li {
      display: inline;
      padding: 20px;
      font-size: 30px;
      background-color: rgb(241, 180, 160);
- }
-
- nav.center--1>ul>li {
-     display: inline;
-     width: 1200px;
-     padding: 5px;
-     background-color: rgb(255, 200, 181);
  }
 
  hr {
@@ -77,7 +76,7 @@
 
  p {
      font-size: xx-large;
-     font-style: italic;
+     font-style: none;
      font-family: 'Times New Roman', Times, serif;
      font-variant: small-caps;
      background-color: rgb(202, 156, 224);
