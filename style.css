@@ -4,6 +4,22 @@
 
  }
 
+ a:link {
+     color: crimson;
+ }
+
+ a:visited {
+     font-style: oblique;
+ }
+
+ a:hover {
+     font-size: 45px;
+ }
+
+ a:active {
+     color: rgb(194, 243, 121);
+ }
+
  header>#left-side h1:first-child {
      text-align: center;
      margin: 0px 100px;
@@ -14,6 +30,7 @@
      width: 900px;
      padding: 0px 15px;
      font-size: 30px;
+     background-color: rgb(238, 165, 97);
  }
 
  header {
@@ -31,6 +48,7 @@
      display: block;
      margin: 0px auto;
      width: 1500px;
+     background-color: #ff7f50;
  }
 
  nav.right-center>p>figure>img {
@@ -41,12 +59,14 @@
      display: inline;
      padding: 20px;
      font-size: 30px;
+     background-color: rgb(241, 180, 160);
  }
 
  nav.center--1>ul>li {
      display: inline;
      width: 1200px;
      padding: 5px;
+     background-color: rgb(255, 200, 181);
  }
 
  hr {
@@ -60,6 +80,7 @@
      font-style: italic;
      font-family: 'Times New Roman', Times, serif;
      font-variant: small-caps;
+     background-color: rgb(202, 156, 224);
  }
 
  p.center {
@@ -78,4 +99,11 @@
      left: 150px;
      width: 1000px;
 
+ }
+
+ aside.right {
+     width: 450px;
+     position: absolute;
+     left: 1450px;
+     top: 450px;
  }
